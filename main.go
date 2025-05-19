@@ -1,4 +1,3 @@
-#!/bin/bash
 package main
 import "fmt"
 func main() {
