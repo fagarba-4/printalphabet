@@ -4,7 +4,8 @@ import (
 "github.com/01-edu/z01"
 )
 func main() {
-for letter := 'a'; letter <= 'z'; letter++ {
-zo1.printrune(letter)
+for ch := 'a'; ch <= 'z'; ch++ {
+z01.printRune(ch)
 }
-z01.printrune('\n')
+z01.printRune('\n')
+}
