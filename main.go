@@ -1,10 +1,8 @@
-package main
-import "fmt"
+package main.go
+import "github.com/01-edu/z01"
 func main() {
-for ch := 'a'; ch <= 'z'; ch++ {
-fmt.printf("%c", ch)
+for r := 'a'; r <= 'z'; r++ {
+z01.printRune(r)
 }
-}
-
-
-
+z01.printRune('n')
+{
